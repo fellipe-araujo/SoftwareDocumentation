@@ -11,5 +11,6 @@
     * ME-R (Modelo de Entidade-Relacionamento);
     * DE-R (Diagrama de Entidade-Relacionamento);
     * DLD (Diagrama Lógico de Dados).
-  * Diagramas como, por exemplo, Diagrama de Classes e Diagrama de Pacotes.
-* Todos esses artefatos estão detalhados em como produzí-los, seguindo normas e políticas.
+  * Diagramas como, por exemplo, Diagrama de Classes e Diagrama de Pacotes (esse foi baseado no React para frontend e Node para backend).
+* Todos esses artefatos estão detalhados em como produzí-los, seguindo normas e políticas;
+* Como complemento ao Diagrama de Pacotes, também foi produzido a estrutura de pastas genérica para o frontend (React) e para o backend (Node).
