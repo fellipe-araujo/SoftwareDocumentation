@@ -1,10 +1,10 @@
 # Documentação de Software
 
 ## Sobre o Repositório
-* O objetivo desse repositório é reunir a maior parte dos artefatos necessários (ou os principais) do momento inicial de um Desenvolvimento de Software.
+* O objetivo desse repositório é reunir a maior parte dos artefatos necessários (ou os principais) do momento inicial de um Desenvolvimento de Software. Dessa forma, esse repositório servirá como um guia para iniciar o desenvolvimento de uma aplicação.
 
 ## Artefatos
-* O objetivo desse repositório é reunir a maior parte dos artefatos necessários (ou os principais) do momento inicial de um Desenvolvimento de Software. Os artefatos produzidos são:
+* Os artefatos produzidos são:
   * Políticas de Branches, Commits, Issues e PRs;
   * Documentos como, por exemplo, Documento de Arquitetura e Documento de Visão;
   * Documentação do Banco de Dados que inclui:
