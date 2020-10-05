@@ -56,7 +56,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#politicas-de-commites" class="md-skip">
+        <a href="#politica-de-commits" class="md-skip">
           Skip to content
         </a>
       
@@ -467,7 +467,43 @@
                   </a>
                 
                 
-                <h1 id="politicas-de-commites">Políticas de Commites</h1>
+                <h1 id="politica-de-commits">Política de Commits</h1>
+<p>Os commits devem seguir o seguinte padrão:</p>
+<ul>
+<li>Devem ser escritos em inglês na forma infinitiva.</li>
+<li>
+<p>Devem possuir uma mensagem explicativa do que foi feito.</p>
+<p><strong>Exemplo:</strong></p>
+</li>
+</ul>
+<pre><code>&quot;Create Architecture Document.&quot;
+</code></pre>
+
+<ul>
+<li>
+<p>A issue deve ser citada no commit por questões de rastreabilidade. Para isso, basta adicionar <strong>#&lt; numero_da_issue &gt;</strong></p>
+<p><strong>Exemplo:</strong></p>
+</li>
+</ul>
+<pre><code>&quot;#7 - Create Architecture Document.&quot;
+</code></pre>
+
+<p><strong>Observação:</strong> por padrão, o caracter "<strong>#</strong>" define uma linha de comentário na mensagem do commit. Para resolver esse problema, digite:</p>
+<pre><code>$ git config --local core.commentChar '!'
+</code></pre>
+
+<ul>
+<li>
+<p>Se mais de uma pessoa trabalhou no mesmo problema durante um pareamento, para que seja inclusa como contribuinte no gráfico de commits do GitHub, basta incluir a expressão <strong>Co-authored-by:</strong> na mensagem do commit.</p>
+<p><strong>Exemplo:</strong></p>
+</li>
+</ul>
+<pre><code>&quot;#7 - Create Architecture Document.
+
+
+Co-authored-by: NomeDaPessoa1 &lt;nome1@gmail.com&gt;
+Co-authored-by: NomeDaPessoa2 &lt;nome2@gmail.com&gt;&quot;
+</code></pre>
                 
               
               
