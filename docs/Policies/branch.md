@@ -6,16 +6,14 @@ As branches devem seguir o seguinte padrão:
 * A _branch_ deverá possuir o padrão CamelCase **x-NomeDaBranch**, em que o "**x**" é o número da issue. 
   
     **Exemplo:**
-
-    ```
-    1-CriarDocumentoDeArquitetura
-    ```
+```
+1-CriarDocumentoDeArquitetura
+```
 
 * Caso a _branch_ não esteja associada a nenhuma issue, não é necessária a adição de nenhuma tag.
   
     **Exemplo:**
-
-    ```
-    RefatorarMER
-    ```
+```
+RefatorarMER
+```
 
